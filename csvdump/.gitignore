@@ -1,0 +1,9 @@
+/target
+*.pkg.tar.xz
+*.sig
+*.tar.gz
+.BUILDINFO
+.MTREE
+.PKGINFO
+pkg/pkg
+

@@ -1,0 +1,15 @@
+[package]
+name = "lib_oradb"
+version = "0.2.3"
+authors = ["Chris Moerz <freebsd@ny-central.org>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+oracle = { version = "0.5.6", features = ["chrono"] }
+chrono = { version = "0.4.19", features = ["serde"] }
+serde = "1.0.117"
+log = "0.4.11"
+simplelog = "0.8.0"
+csv = "1.1.3"
